@@ -1,0 +1,115 @@
+<!DOCTYPE html!>
+<html>
+<!-- Nathan Whitcomb -->
+<!-- 5/2/2023 -->
+
+	<head>
+	   <title>Volvo Cars</title>
+			<link rel= "stylesheet" href= "../style.css">	
+				</head>
+
+		<script src="../javascript.js"></script>
+		
+    <body>
+	
+	<!-- Top navigation -->
+	<center><div class="topnav">
+	<a href="../index.html"><img src="../VolvoLogo.png" height = "55" width = "122"  /></a>
+	<div class="topnav-right">
+	<a onclick= "ShowMenu()">Menu</a>
+	</div>
+	</div></center>
+
+	<!-- Drop Down Menu -->
+	
+		<center><div class="dropdown" id= "menu">
+	<h2>Information on Cars & More</h2>
+	<a href="../Amazon/amazon.html">Volvo Amazon</a>
+	<a href="../P1800/p1800.html">Volvo P1800</a>
+	<a href="../100 Series/100.html">Volvo 100 Series</a>
+	<a href="../200 Series/200.html">Volvo 200 Series</a>
+	<a href="../Wagons/xc70.html">Volvo XC70 & V70</a>
+	<a href="../xc90/xc90.html">Volvo XC90</a>
+	<a href="../sedans/s60.html">Volvo S60</a>
+	<a href="../S80/s80.html">Volvo S80</a>
+	<a href="../S90/S90.html">Volvo S90</a>
+	<a href="../V60/V60.html">Volvo V60</a>
+	<a href="../EX90/EX90.html">Volvo EX90</a>
+	<a href="../XC60/XC60.html">Volvo XC60</a>
+	<a href="../C30/C30.html">Volvo C30</a>
+	<a href="../Quiz/quiz.html">What Car Is Best For You?</a>
+	</div></center>
+	
+	
+	
+
+	
+	<div class = "position" id="bodyDIM" >
+	
+	<!-- Page content -->
+
+
+	<p class = "border" >It can be difficult to find which car is best for you, fill out our "Find Your Match" quiz, to take you to the car that fits you best.</p>
+	
+	<table class="table">
+		<div>
+		
+		<tr>
+		<td>
+		<center><h2> Find Your Match </h2></center>
+		<label for="select">Choose Your Car Type:</label>
+			<select id="type" name="select">
+			<option value="Sedan">Sedan</option>
+			<option value="Wagon">Wagon</option>
+			<option value="SUV">SUV</option>
+			</select>
+			</td>
+			</tr>
+			<br>
+			
+		<tr>
+		<td>
+		<label for="select">Choose Your Style:</label>
+			<select id="style" name="select">
+			<option value="Classic">Classic</option>
+			<option value="Modern">Modern</option>
+			</select>
+			</tr>
+			<br>		
+		<tr>
+		<td>
+		<label for="select">Number Of Passengers:</label>
+			<select id="pplnum" name="select">
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="7">7</option>
+			</select>
+		</td>
+		</tr>
+		
+		<tr>
+		<td>
+		<label for="select">Price Range:</label>
+			<select id="cash" name="select">
+			<option value="$1">$5k - $15k</option>
+			<option value="$2">$25k - $35k</option>
+			<option value="$3">$50k - $70k</option>
+			</select>
+		</td>
+		</tr>
+		
+		</div>
+    <tr>
+	<td>
+    <center><input onclick="quizform()" id="submit_button" type="submit" value="Submit" /></center>
+	</td>
+	</tr>
+</form>
+</table>
+
+	<center><img class = "mainpgIMGquiz" width = "50%" src = "carS.png"></center>
+
+
+		</div>
+    </body>
+</html>

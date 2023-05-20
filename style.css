@@ -1,0 +1,182 @@
+/* Nathan Whitcomb */
+/* 4/21/23 */
+
+h1	{
+	text-decoration: underline;
+	font-family: Sans-serif, Arial;
+	font-size: 48px;
+}
+		
+h2	{
+	font-family: Sans-serif, Arial;
+	font-size: 35px;
+}
+		
+body  {
+	font-family: Sans-serif, Arial;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-color: #d6d6d6;
+	margin: 0px;
+ }
+
+p   {
+	font-family: Sans-serif, Arial;
+	text-indent: 50px;
+	font-size: 25px;
+}
+img {
+	border: 0px ;
+}
+
+/* Top Nav */
+
+.topnav {
+  width: 100%;
+  overflow: hidden;
+  background-color: #FFF5EE;
+  z-index: 5;
+  position: fixed;
+  z-index: 50;
+}
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 9.5px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.topnav a:hover {
+  color: black;
+}
+.topnav-right {
+  float: right;
+  padding: 15px 16px;
+  cursor: pointer;
+}
+	
+/* Menu Dropdown Button */
+
+div.dropdown {
+
+  z-index: 5;
+  visibility: hidden;
+  position: absolute;
+  width: 200px;
+  background-color: #FFF5EE;
+  top: 60;
+  right: 0;
+}
+div.dropdown a {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  display: block;
+  float: top;
+}
+.visible {
+visibility: visible !important;
+}
+.dropdown a:hover {
+color: #696969;
+border: 2.5px;
+border-style: solid;
+border-color: black;
+}
+/* Text Border */
+.border {
+border-width: 2.5px; 
+border-style: solid; 
+width: 35%;
+float: left;
+padding: 25px 25px;
+margin: 40px 40px;
+background-color: #FFF5EE
+}
+
+/* Main Page Image */
+.mainpgIMG {
+border-width: 2.5px; 
+border-style: solid; 
+margin: 25px -20px;
+}
+/* Menu Dim */
+div.dim {
+
+position: fixed;
+top: 60px;
+height: 100%;
+width: 100%;
+opacity: 0.45;
+background-color: #191717;
+}
+
+/* Quiz Form */
+.table {
+background-color: #FFF5EE;
+border: 2.5px;
+border-style: solid;
+text-decoration: none;
+cursor: pointer;
+font-family: Sans-serif, Arial;
+font-size: 25px;
+padding: 25px 25px 45px;
+margin: 300px 40px;
+float: left;
+position: absolute;
+}
+
+select {
+border: 2.5px;
+border-style: solid;
+cursor: pointer;
+font-family: Sans-serif, Arial;
+font-size: 20px;
+background-color: #FFF5EE;
+}
+
+input {
+cursor: pointer;
+font-family: Sans-serif, Arial;
+font-size: 20px;
+background-color: #FFF5EE;
+border: 2.5px;
+border-style: solid;
+}
+
+input:hover {
+color: #696969;
+}
+
+/* Main Page Image Quiz */
+.mainpgIMGquiz {
+border-width: 3px; 
+border-style: solid; 
+margin: 3.5px -300px ;
+position: relative;
+}
+
+/* Back Button */
+.button {
+border: 2.5px;
+border-style: solid;
+cursor: pointer;
+font-family: Sans-serif, Arial;
+font-size: 25px;
+background-color: #FFF5EE;
+margin: 65px;
+}
+
+/* Body Position */
+
+.position {
+top: 6.5%;
+position: relative;
+}
+.positionquiz {
+top: 10%;
+position: relative;
+}
